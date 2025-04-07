@@ -21,7 +21,7 @@ Missing Gemini API key. Please set it as environment variable:
 
   // 2. Initialize Gemini
   final model = GenerativeModel(
-    model: 'gemini-2.5-pro-exp-03-25',
+    model: 'gemini-1.5-pro-latest',
     apiKey: apiKey,
   );
 

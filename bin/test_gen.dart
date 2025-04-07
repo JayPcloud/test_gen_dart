@@ -1,5 +1,5 @@
 import 'package:args/args.dart';
-import 'package:test_gen_cli/test_generator.dart';
+import 'package:test_gen/test_generator.dart';
 
 void main(List<String> arguments) {
   // 1. Set up argument parser

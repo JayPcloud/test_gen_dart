@@ -1,7 +1,8 @@
-name: test_gen_cli
-description: A sample command-line application with basic argument parsing.
-version: 0.0.1
-# repository: https://github.com/my_org/my_repo
+name: test_gen
+description: "A CLI tool that generates Dart tests using Gemini AI"
+version: 0.1.0
+homepage: https://github.com/JayPcloud/test_gen_dart
+repository: https://github.com/JayPcloud/test_gen_dart.git
 
 environment:
   sdk: ^3.6.1
