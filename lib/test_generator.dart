@@ -87,13 +87,6 @@ String _getImportPath(String inputPath) {
   }
 }
 
-String _sanitizeTestCode(String raw, String importPath) {
-  return raw
-      .replaceAll('```dart', '')
-      .replaceAll('```', '')
-      .trim(); // Remove markdown
-}
-
 Function() showSpinner() {
   const chars = r'-\|/';
   int i = 0;
