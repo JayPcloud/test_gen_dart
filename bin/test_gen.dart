@@ -5,17 +5,17 @@ void main(List<String> arguments) {
   // 1. Set up argument parser
   final parser = ArgParser()
     ..addOption('input',
-        abbr: 'i',                  // Short flag (-i)
+        abbr: 'i', // Short flag (-i)
         help: 'Path to Dart file', // Help text
-        mandatory: true)            // Must be provided
+        mandatory: true) // Must be provided
     ..addOption('output',
         abbr: 'o',
         help: 'Output directory',
-        defaultsTo: 'test')         // Default: 'test/'
+        defaultsTo: 'test') // Default: 'test/'
     ..addFlag('verbose',
-        abbr: 'v',                  // -v flag
+        abbr: 'v', // -v flag
         help: 'Show debug logs')
-    ..addFlag('version',            // --version
+    ..addFlag('version', // --version
         help: 'Print version');
 
   try {
@@ -40,10 +40,9 @@ void main(List<String> arguments) {
 
     // 6. Core logic (will implement next)
     generateTests(inputFile, outputDir, isVerbose);
-
   } catch (e) {
     // 7. Error handling
     print('Error: $e');
-    print(parser.usage);  // Show help text
+    print(parser.usage); // Show help text
   }
 }

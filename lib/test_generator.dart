@@ -64,12 +64,8 @@ Missing Gemini API key. Please set it as environment variable:
   print('📁 Tests generated at: ${testFile.path}');
 }
 
-
-
-
 String _getTestFileName(String path) =>
     '${path.split('/').last.replaceAll('.dart', '')}_test.dart';
-
 
 String _getImportPath(String inputPath) {
   try {
