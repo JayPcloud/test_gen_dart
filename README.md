@@ -84,7 +84,7 @@ void main() {
 ## Building from Source 🛠️
 ### Clone repository
 ```bash
-git clone https://github.com/yourusername/test_gen_dart.git
+git clone https://github.com/JayPcloud/test_gen_dart.git
 cd test_gen_dart
 ```
 
