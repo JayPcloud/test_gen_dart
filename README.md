@@ -15,7 +15,7 @@ An AI-powered CLI tool that automatically generates Dart unit tests using Google
 
 ## Quick Start
 ### 1. Install
-```bash
+```dart
 dart pub add test_gen
 ```
 
@@ -24,18 +24,18 @@ i. Get Gemini API Key
 
 ii. Set environment variable:
 #### Linux/macOS
-```bash
+```dart
 export GEMINI_API_KEY="your_key"
 ```
 #### Windows
-```bash
+```dart
 $env:GEMINI_API_KEY="your_key"
 ```
 
 ### 3. Generate tests
 dart run test_gen -i lib/subfolder(if any)/file_name.dart
 #### E.g:
-```bash
+```dart
 dart run test_gen -i lib/math.dart
 ```
 
